@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>StickyHeader</title>
+    <style>
+    .container{
+        margin-top: 0px;
+    }
+    header, main, footer{
+        padding: 60px;
+        box-sizing: border-box;
+    }   
+    header{
+        position:sticky;
+        top:0;
+        background:linear-gradient(226deg,#45FCE4,#04CBD3);
+        color:#fff;
+    }
+
+    footer{
+        background:linear-gradient(225deg,#45FCE4,#04CBD3);
+        color:#fff;
+        font-size: x-large;
+        font-style: italic;
+    }
+    p{
+        margin-top: 10px;
+        line-height: 34px;
+        color:424242;
+        font-style: italic;
+        font-size: 40px;
+        background-color: cornflowerblue;
+    }
+    h1{
+        font-size:x-large;
+        font-style: italic;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><u>Sticky Positioned Header</u></h1>
+        </header>
+        <main>
+            <p><u> positioning is a hybrid of relative and fixed positioning. The element is treated as relative positioned until it crosses a specified threshold, at which point it is treated as fixed positioned.As you can see in that demo, it's a decent candidate for progressive enhancement, as if you don't see the sticky header feature, it's no big deal.You know how position: relative creates a new context for absolute positioning within an element? Well, position: sticky is a locally scoped version of position: fixed. Let's take a look at how that works using a modal with a sticky close button as an example.A user asked in the forums: I am fairly new to web design, and I could never master the differences in positioning of elements. I know there are absolute, fixed, and relative. Are there any others? Also, do they majorly differ? And when should you use which? Short answer: Yes,
+           </u></p>
+        </main>
+        <footer><u>Footer</u></footer>
+    </div>
+</body>
+</html>
